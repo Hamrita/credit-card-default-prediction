@@ -1,10 +1,10 @@
-Table of Contents¶
-Import Packages
-Load Data
-Prepare for Modeling
-Predicative Classification Modeling
-Logistic Regression
-Random Forest
-XGBoost
-Model Comparison
-Conclusion
+## Table of Contents¶
+- Import Packages
+- Load Data
+- Modeling Prepation
+- Predicative Modeling
+- Logistic Regression
+- Random Forest
+- XGBoost
+- Model Comparisons
+- Conclusions
