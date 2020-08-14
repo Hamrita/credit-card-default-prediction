@@ -4,7 +4,7 @@ The purpose of this project is to conduct quantitative analysis on credit card d
 ## Project Overview<br>
 The analysis consists of 2 Jupyter notebooks.
 1. Exploratory Data Analysis. The detailed notebook of EDA can be found <a href="https://github.com/teresanan/credit-card-default-prediction/blob/master/EDA/credit_card_default_analysis_part1_EDA.ipynb">here</a>.
-2. Machine Learning Modeling. The detailed notebook of EDA can be found <a href="https://github.com/teresanan/credit-card-default-prediction/blob/master/Modeling/credit_card_default_part2_modeling.ipynb">here</a>.
+2. Machine Learning Modeling. The detailed notebook of modeling can be found <a href="https://github.com/teresanan/credit-card-default-prediction/blob/master/Modeling/credit_card_default_part2_modeling.ipynb">here</a>.
 
 Machine Learning Models Used: 
 1. Logistic Regression
