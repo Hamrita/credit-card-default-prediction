@@ -25,12 +25,12 @@ This dataset contains information on default payments, demographic factors, cred
 
 ## Recommendations Based on Modeling
 A model’s recall can be adjusted to arbitrarily high at the cost of lower precision. In these 3 models, Logistic Regression model has the highest recall but the lowest precision, if the firm expects high recall, then this model is the best candidate. If the balance of recall and precision is the most important metric, then Random Forest is the ideal model. Since Random Forest has slightly lower recall but much higher precision than Logistic Regression, we recommend the Random Forest model. 
+![](Figures/recommended_recall.png)
 
 ## Limitations
 1. Best model Random Forest can only detect 51% of default. 
 2. Model can only be served as an aid in decision making instead of replacing human decision.
 3. Used only 30,000 records and not from US consumers.
-![](recommended_recall.png)
 
 ## Future Work:
 1. Models are not exhaustive. Other models could perform better.
