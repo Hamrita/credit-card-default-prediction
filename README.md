@@ -13,8 +13,8 @@ Machine Learning Models Used:
 
 See the <a href="https://github.com/teresanan/credit-card-default-prediction/blob/master/Presentation_Slides.pdf">presentation slides</a> for a summary of this analysis.
 
-## Dataset<br>
-This dataset contains information on default payments, demographic factors, credit limit, history of payments, and bill statements of credit card clients in Taiwan from April 2005 to September 2005
+## Dataset Source<br>
+This dataset contains information on default payments, demographic factors, credit limit, history of payments, and bill statements of credit card clients in Taiwan from April 2005 to September 2005.
 
 ## Key Findings from EDA
 1. Males have more delayed payment than females in this dataset. Keep in mind that this finding only applies to this dataset, it does not imply this is true for other datasets.
@@ -32,7 +32,7 @@ A model’s recall can be adjusted to arbitrarily high at the cost of lower prec
 2. Model can only be served as an aid in decision making instead of replacing human decision.
 3. Used only 30,000 records and not from US consumers.
 
-## Future Work:
+## Future Work
 1. Models are not exhaustive. Other models could perform better.
 2. Get more computational resources to tune XGBoost parameters.
 3. Acquire US customer data and more useful features.I.e.customer income.
