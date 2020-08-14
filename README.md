@@ -1,6 +1,9 @@
 # Credit Card Default Risk Analysis 
 The purpose of this project is to conduct quantitative analysis on credit card default risk by using 3 machine learning models with accessible customer data, instead of credit score or credit history, with the goal of assisting and speeding up the human decision making process.
 
+## Dataset Source<br>
+This dataset contains information on default payments, demographic factors, credit limit, history of payments, and bill statements of credit card clients in Taiwan from April 2005 to September 2005.
+
 ## Project Overview<br>
 The analysis consists of 2 Jupyter notebooks.
 1. Exploratory Data Analysis. The detailed notebook of EDA can be found <a href="https://github.com/teresanan/credit-card-default-prediction/blob/master/EDA/credit_card_default_analysis_part1_EDA.ipynb">here</a>.
@@ -12,9 +15,6 @@ Machine Learning Models Used:
 3. XGBoost
 
 See the <a href="https://github.com/teresanan/credit-card-default-prediction/blob/master/Presentation_Slides.pdf">presentation slides</a> for a summary of this analysis.
-
-## Dataset Source<br>
-This dataset contains information on default payments, demographic factors, credit limit, history of payments, and bill statements of credit card clients in Taiwan from April 2005 to September 2005.
 
 ## Key Findings from EDA
 1. Males have more delayed payment than females in this dataset. Keep in mind that this finding only applies to this dataset, it does not imply this is true for other datasets.
