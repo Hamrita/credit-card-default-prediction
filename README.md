@@ -23,8 +23,12 @@ This dataset contains information on default payments, demographic factors, cred
 4. There appears to be no correlation between default payment and marital status.
 5. Customers being inactive doesn’t mean they have no default risk. We found 317 out of 870 inactive customers who had no consumption in 6 months then defaulted next month.
 
+## Model Comparison
+In these 3 models, Logistic Regression model has the highest recall but the lowest precision, if the firm expects high recall, then this model is the best candidate. If the balance of recall and precision is the most important metric, then Random Forest is the ideal model. Since Random Forest has slightly lower recall but much higher precision than Logistic Regression, we recommend the Random Forest model. 
+![](model_comparison.png)
+
 ## Recommendations Based on Modeling
-A model’s recall can be adjusted to arbitrarily high at the cost of lower precision. In these 3 models, Logistic Regression model has the highest recall but the lowest precision, if the firm expects high recall, then this model is the best candidate. If the balance of recall and precision is the most important metric, then Random Forest is the ideal model. Since Random Forest has slightly lower recall but much higher precision than Logistic Regression, we recommend the Random Forest model. 
+Below is our suggested recall plot. Note the threshold can be adjusted to reach higher recall.
 ![](Figures/recommended_recall.png)
 
 ## Limitations
